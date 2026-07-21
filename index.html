@@ -13,8 +13,22 @@ body{
 .header{
     background:#5b2747;
     color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:40px 80px;
+}
+
+.header-content{
     text-align:right;
-    padding:50px 100px 50px 50px;
+}
+
+.header img{
+    width:175px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid white;
 }
 
 .header h1{
@@ -24,7 +38,7 @@ body{
 
 .header p{
     font-size:22px;
-    margin:10px 0 0 0;
+    margin-top:10px;
 }
 
 .left{
@@ -80,13 +94,13 @@ p{
 </head>
 
 <body>
-
 <div class="header">
-    <br><br>
-    <h1>SASTIKA PALANISAMY</h1>
-    <p>Electronics and Communication Engineering Student</p>
+    <img src="profile.jpg" alt="Profile Picture">
+    <div class="header-content">
+        <h1>SASTIKA PALANISAMY</h1>
+        <p>Electronics and Communication Engineering Student</p>
+    </div>
 </div>
-
 <br>
 <br>
 
